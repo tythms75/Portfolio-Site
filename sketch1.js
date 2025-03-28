@@ -3,7 +3,7 @@ let shapes = [];
 function setup() {
   createCanvas(windowWidth, windowWidth);
   for (let i = 0; i < 20; i++) {
-    shapes.push({ angle: i * TWO_PI / 20, color: color(random(255), random(255), random(255)) });
+    shapes.push({ angle: i * TWO_PI / 20, color: color(random(500), random(500), random(500)) });
   }
 }
 
@@ -24,6 +24,6 @@ function draw() {
 
 function mousePressed() {
   for (let i = 0; i < shapes.length; i++) {
-    shapes[i].color = color(random(255), random(255), random(255));
+    shapes[i].color = color(random(500), random(500), random(500));
   }
 }
