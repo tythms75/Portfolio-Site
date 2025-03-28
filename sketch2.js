@@ -8,8 +8,8 @@ function setup() {
 }
 
 function draw() {
-  background(10);
-  stroke(255);
+  background(50);
+  stroke(400);
   
   for (let i = 0; i < waves.length; i++) {
     waves[i] = height / 2 + sin(frameCount * 0.05 + i * 0.1) * (mouseY / 4);
