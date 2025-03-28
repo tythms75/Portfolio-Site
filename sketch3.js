@@ -1,7 +1,7 @@
 let circles = [];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowWidth);
   for (let i = 0; i < 10; i++) {
     circles.push({
       x: random(width),

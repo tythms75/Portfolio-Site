@@ -1,7 +1,7 @@
 let waves = [];
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowWidth);
   for (let i = 0; i < width; i++) {
     waves[i] = height / 2;
   }
